@@ -4,11 +4,15 @@
     text-decoration: none;
     list-style: none;
     font-family: sans-serif;
+   ;
     
     
     
 }
 
+#fondo-de-pantalla {
+    position: fixed;
+}
 center{
     position: relative;
     margin:20px auto;
@@ -28,7 +32,7 @@ center{
     margin: 20px auto ;
     width: 400px;
     height: 600px;
-    border: 1px solid #aaa;
+    border: 2px solid #aaa;
     border-radius: 20px;
     background: #ddd
 }
@@ -60,7 +64,7 @@ center{
     background:white;
     border:1px solid #aaa;
     border-radius: 5px;
-    box-shadow:5px 5px 10px #999;
+    box-shadow:4px 4px 6px #999;
     font-weight: bold;
     cursor: pointer;
 }
